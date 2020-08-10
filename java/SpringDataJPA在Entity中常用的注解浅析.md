@@ -1,4 +1,4 @@
-**首先我们常用的注解包括(\*@Entity、@Table、@Id、@IdClass、@GeneratedValue、@Basic、@Transient、@Column、@Temporal、@Enumerated、@Lob\*)**
+** 首先我们常用的注解包括(\*@Entity、@Table、@Id、@IdClass、@GeneratedValue、@Basic、@Transient、@Column、@Temporal、@Enumerated、@Lob\*)**
 
 1. **@Entity使用此注解定义的对象将会成为被JPA管理的实体，将映射到指定的数据库表@Entity(name =“user”)其中name默认是此实体类的名字，全局唯一。**
 2. **@Table指定此实体类对应的数据库的表名。若注解不加名字则系统认为表名和实体类的名字相同**
